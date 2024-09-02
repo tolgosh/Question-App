@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4faff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 0 15px; /* Kenarlardan taşmayı önlemek için */
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.card-title {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#timer {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ff4500;
+}
+
+#options button {
+    margin: 10px auto;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+    border-color: #28a745;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#correct {
+    color: #28a745;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: #dc3545;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#quiz img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.8rem;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+        font-size: 1.1rem;
+    }
+
+    #timer {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+    #timer {
+        font-size: 1.2rem;
+    }
+
+    #options button {
+        font-size: 1rem;
+    }
+}

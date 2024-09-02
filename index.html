@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genel Kültür Testi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div id="start-screen" class="card text-center shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="card-body">
+                <h1 class="card-title">Genel Kültür Testi</h1>
+                <p class="card-text">Bu test 10 sorudan oluşmaktadır. Başla butonuna tıklayarak teste başlayabilirsiniz.</p>
+                <button id="start" class="btn btn-primary btn-lg">Teste Başla</button>
+            </div>
+        </div>
+
+        <div id="quiz" class="card text-center shadow-lg p-3 mb-5 bg-white rounded hidden">
+            <div class="card-body">
+                <img id="media" class="img-fluid mb-3" src="" alt="Soru görseli">
+                <p id="question" class="h4"></p>
+                <div id="options" class="list-group">
+                    <!-- Cevap şıkları burada görünecek -->
+                </div>
+                <div id="timer" class="mt-3 font-weight-bold">Süre: <span id="time"></span> saniye</div>
+            </div>
+        </div>
+
+        <div id="result" class="card text-center shadow-lg p-3 mb-5 bg-white rounded hidden">
+            <div class="card-body">
+                <h2 class="card-title">Test Sonucu</h2>
+                <p class="card-text">Doğru: <span id="correct" class="text-success"></span></p>
+                <p class="card-text">Yanlış: <span id="incorrect" class="text-danger"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

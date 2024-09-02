@@ -1,0 +1,19 @@
+# Genel Kültür Testi
+
+Bu proje, kullanıcıların genel kültür bilgilerini test etmelerine olanak tanıyan interaktif bir web uygulamasıdır. Test, 10 farklı sorudan oluşmaktadır ve her bir soru için belirli bir süre verilmektedir. Test tamamlandıktan sonra kullanıcıya doğru ve yanlış cevap sayıları gösterilmektedir.
+
+## Özellikler
+
+- **Teste Başla**: Kullanıcı, teste başlamak için "Teste Başla" butonuna tıklayarak testi başlatır.
+- **Zamanlayıcı**: Her soru için 30 saniyelik bir süre tanınır. İlk 4 saniyede cevap şıkları gizli tutulur.
+- **Sorular**: 10 farklı soru, her biri bir resimle desteklenmiştir.
+- **Sonuç Ekranı**: Test tamamlandığında, doğru ve yanlış cevapların sayısı kullanıcıya gösterilir.
+- **Responsive Tasarım**: Sayfa farklı cihaz ve ekran boyutlarında düzgün bir şekilde görüntülenir.
+
+## Kullanılan Teknolojiler
+
+- **HTML**: Sayfa yapısını oluşturmak için kullanıldı.
+- **CSS**: Sayfa tasarımı ve responsive özellikler için kullanıldı.
+- **JavaScript**: Sayfa dinamikliğini sağlamak ve kullanıcı etkileşimlerini yönetmek için kullanıldı.
+- **Bootstrap**: Hızlı ve tutarlı bir tasarım için Bootstrap kütüphanesi kullanıldı.
+
